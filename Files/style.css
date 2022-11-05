@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sectiontop {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(10, 6, 9, 0.808)
+    ),
+    url("../Images/main-bcg.jpeg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section {
+  /* border: 2px solid black; */
+  position: absolute;
+  text-transform: capitalize;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line1 {
+  font-size: 3rem;
+  word-spacing: 1rem;
+  font-family: "Caveat", cursive;
+  color: lime;
+}
+.line2 {
+  letter-spacing: 2px;
+  font-size: 4rem;
+  /* word-spacing: 1rem; */
+  text-transform: uppercase;
+  padding: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  margin-bottom: 1rem;
+}
+.button1{
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 3rem;
+  display: inline-block;
+  background-color: #91bfb2;
+  /* border: 2px solid black; */
+  text-transform: uppercase;
+  font-family: "Girassol", cursive;
+  height: 5rem;
+  width: 18rem;
+  /* margin: auto; */
+  letter-spacing: 0.3rem;
+  outline: 0.3rem solid #91bfb2;
+  outline-offset: 0.2em;
+  transition: all 0.2s;
+}
+.button1:hover {
+  background-color: #abcfc5;
+}
+
+.gradient{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,104,1) 21%, rgba(24,162,175,1) 53%);
+  height: 10px;
+  width: 100%;
+}
+
+.section2 {
+  position: relative;
+  /* display: inline; */
+}
+.boxall {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  vertical-align: top;
+  /* position: absolute; */
+  margin: auto;
+  cursor: pointer;
+  display: inline-block;
+  padding: 3em;
+  height: 16em;
+  width: 25%;
+  background-color: rgb(221, 221, 160);
+}
+.boxall:hover:hover {
+  background-color: rgb(209, 201, 131);
+}
+.section3{
+
+  background-color: rgb(27, 22, 22);
+  height: 35rem;
+}
+.image1 {
+  /* border: 2px solid black; */
+  
+  display: inline-block;
+  background-position-x: right;
+  background-position-y: center;
+  width: 50%;
+  background-image: url(../Images/soneshsaraswat-14052021-0001.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+#about{
+  font-family: cursive;
+  padding-bottom: 1rem;
+}
+#tea{
+  padding-bottom: 1rem;
+  font-family: fantasy;
+}
+#check{
+  font-family: "Caveat", cursive;
+}
+
+.s3text{
+  line-height: 2rem;
+  color: white;
+  /* border: 2px solid black; */
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 10rem;
+
+}
+.button2{
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  display: block;
+  background-color: #91bfb2;
+  text-transform: uppercase;
+  font-family: "Girassol", cursive;
+  height: 3rem;
+  width: 13rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.2s;
+}
+.button2:hover {
+  background-color: #abcfc5;
+}
+.section4{  
+  background-color: rgb(221, 221, 160);
+  height: 20rem;
+} 
+ .s4text{
+  color: rgb(2, 2, 2);
+  /* border: 2px solid black; */
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 4rem;
+}
+.button3{
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  display: block;
+  background-color: #91bfb2;
+  text-transform: uppercase;
+  font-family: "Girassol", cursive;
+  height: 3rem;
+  width: 13rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.2s;
+}
+.button3:hover {
+  background-color: #abcfc5;
+}
+.image2 { 
+  background-image: url(../Images/images-2.jpeg);
+  background-position-x: center;
+  background-position-y: center;
+  /* border: 2px solid black ; */
+  display: inline-block;
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+.image3 {
+  background-image: url(../Images/Unknown-4.jpeg);
+  /* border: 2px solid black; */
+  background-position-x: center;
+  background-position-y: center;
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+.image4 {
+  background-image: url(../Images/Unknown-9.jpeg);
+  /* border: 2px solid black; */
+  background-position-x: center;
+  background-position-y: center;
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat; 
+ } 
+ 
+ .section5{
+  display: flex;  
+  background-color: rgb(22, 19, 22);
+  height: 30rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  text-align: center;
+} 
+.section5box{
+  /* height:max-content; */
+  height: 25rem;
+  width: 20%;
+  margin: 2rem;
+  margin-top: 2rem;
+  background-color: rgb(209, 219, 231);
+  /* border: 2px solid red; */
+  border-radius: 1rem;
+  
+}
+.imagesection51{
+  height: 50;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.imagesection52{
+  height: 50%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.imagesection53{
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.imagesection51>img{
+  height: 100%;
+  width: 100%;
+}
+
+.imagesection52>img{
+  height: 100%;
+  width: 100%;
+}
+
+.imagesection53>img{
+   
+   height: 100%;
+   width: 100%; 
+}
+
+.section5text{
+  /* border: 2px solid red; */
+  height: 50%;
+}
+
+.button5{
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 0.5rem;
+  display: block;
+  background-color: #a3c721;
+  text-transform: uppercase;
+  font-family: "Girassol", cursive;
+  height: 2rem;
+  width: 7rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.2s;
+}
+.button5:hover {
+  background-color: #abcfc5;
+}
+.section6{  
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(221, 221, 160);
+  height: 20rem;
+}
+.form{
+height: 15rem;
+width: 15rem;
+border: 2px solid black;
+}
+.button6{
+  display: inline-block;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  color: rgb(0, 197, 76);
+  text-transform: uppercase;
+  font-family: "Girassol", cursive;
+  transition: all 0.2s;
+}
+.section7{
+  background-color: rgb(22, 19, 22);
+  height: 5rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  text-align: center;
+}
+
+/* css code for form */
+
